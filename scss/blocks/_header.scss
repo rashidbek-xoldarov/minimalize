@@ -69,12 +69,12 @@
   width: 24px;
   height: 13px;
   @extend %button-unstyle;
-  background-image: url("../../images/burger.svg");
+  background-image: url("../images/burger.svg");
   @include bg(no-repeat, center);
 }
 
 .site-header__btn-close {
-  background-image: url("../../images/x-btn.svg");
+  background-image: url("../images/x-btn.svg");
 }
 
 @include mobile-first(576px) {

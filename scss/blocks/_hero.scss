@@ -2,10 +2,10 @@
 
 .hero__inner {
   padding: 295px 0 0;
-  background-image: url("../../images/hero-bg-mobile.jpg");
-  @include bg(no-repeat, top center);
+  background-image: url("../images/hero-bg-mobile.jpg");
+  @include bg(no-repeat, top center, 311px 271px);
   @include bgRetinaImages {
-    background-image: url("../../images/hero-bg-mobile@2x.jpg");
+    background-image: url("../images/hero-bg-mobile@2x.jpg");
   }
 }
 
@@ -44,7 +44,7 @@
     flex-shrink: 0;
     margin-right: 37px;
     @include psevdoelements(inline-block, 48px, 48px, "");
-    background-image: url("../../images/arrow-icon.svg");
+    background-image: url("../images/arrow-icon.svg");
     @include bg(no-repeat, center);
     background-color: #1d3444;
   }
@@ -55,7 +55,7 @@
 
     &::before {
       background-color: #55a292;
-      background-image: url("../../images/arrow-icon-hover.svg");
+      background-image: url("../images/arrow-icon-hover.svg");
       transition: 0.2s ease;
     }
   }
@@ -76,9 +76,9 @@
 
 @include mobile-first(576px) {
   .hero__inner {
-    background-image: url("../../images/hero-bg-tablet.jpg");
+    background-image: url("../images/hero-bg-tablet.jpg");
     @include bgRetinaImages {
-      background-image: url("../../images/hero-bg-tablet@2x.jpg");
+      background-image: url("../images/hero-bg-tablet@2x.jpg");
     }
     @include bg(no-repeat, top center, 480px 350px);
     padding: 380px 0 0;
@@ -111,9 +111,9 @@
 @include mobile-first(992px) {
   .hero__inner {
     padding: 243px 0 0;
-    background-image: url("../../images/hero-bg-desktop.jpg");
+    background-image: url("../images/hero-bg-desktop.jpg");
     @include bgRetinaImages {
-      background-image: url("../../images/hero-bg-desktop@2x.jpg");
+      background-image: url("../images/hero-bg-desktop@2x.jpg");
     }
     @include bg(no-repeat, top center, auto);
   }

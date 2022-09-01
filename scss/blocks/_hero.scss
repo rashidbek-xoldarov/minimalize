@@ -27,6 +27,7 @@
 
 .info-hero__link {
   display: inline-flex;
+  flex-wrap: nowrap;
   align-items: center;
   max-width: 200px;
   font-size: 12px;

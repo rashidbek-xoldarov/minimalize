@@ -32,6 +32,7 @@
   color: initial;
   transition: 0.3s ease;
   text-transform: uppercase;
+  overflow-wrap: break-word;
 
   &:hover {
     color: #fafafa;

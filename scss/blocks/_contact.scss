@@ -80,16 +80,24 @@
 
 .site-form__btn {
   width: 200px;
-  padding: 17px 24px;
+  padding: 16px 23px;
   font-size: 12px;
   line-height: 14px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+  border: 1px solid #203a4c;
   color: #ffffff;
-  border: none;
   background-color: #203a4c;
-  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:hover {
+    color: #33323d;
+    border-color: #203a4c;
+    background-color: transparent;
+    transition: 0.2s ease;
+  }
 }
 
 @include mobile-first(768px) {

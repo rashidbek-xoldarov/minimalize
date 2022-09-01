@@ -39,6 +39,7 @@
   text-decoration: none;
   text-align: center;
   transition: 0.2s ease;
+  overflow-wrap: anywhere;
 
   &::before {
     flex-shrink: 0;
